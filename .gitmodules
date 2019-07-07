@@ -1,0 +1,21 @@
+[submodule "Source/themes/docdock"]
+	path = Source/themes/docdock
+	url = https://github.com/vjeantet/hugo-theme-docdock.git
+[submodule "Source/themes/dot"]
+	path = Source/themes/dot
+	url = https://github.com/Gethugothemes/dot-hugo-documentation-theme.git
+[submodule "Source/repositories/Learning"]
+	path = Source/repositories/Learning
+	url = https://github.com/dolittle/Learning.git
+[submodule "Source/content/Source/repositories/fundamentals/home"]
+	path = Source/content/Source/repositories/fundamentals/home
+	url = https://github.com/dolittle-fundamentals/home.git
+[submodule "Source/repositories/fundamentals/home"]
+	path = Source/repositories/fundamentals/home
+	url = https://github.com/dolittle-fundamentals/home.git
+[submodule "Source/content/fundamentals/Source/repositories/fundamentals/DotNET.Fundamentals"]
+	path = Source/content/fundamentals/Source/repositories/fundamentals/DotNET.Fundamentals
+	url = https://github.com/dolittle-fundamentals/DotNET.Fundamentals.git
+[submodule "Source/repositories/fundamentals/DotNET.Fundamentals"]
+	path = Source/repositories/fundamentals/DotNET.Fundamentals
+	url = https://github.com/dolittle-fundamentals/DotNET.Fundamentals.git
