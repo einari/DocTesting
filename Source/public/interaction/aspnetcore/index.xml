@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ASP.NET Core on Dolittle Documentation</title>
+    <link>/interaction/aspnetcore/</link>
+    <description>Recent content in ASP.NET Core on Dolittle Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>The Hugo Documents are copyright © gethugothemes 2018.</copyright>
+    
+	<atom:link href="/interaction/aspnetcore/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>

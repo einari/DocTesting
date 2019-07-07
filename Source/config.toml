@@ -1,0 +1,127 @@
+baseURL = "/"
+languageCode = "en-us"
+DefaultContentLanguage = "en"
+title = "Dolittle Documentation"
+theme = "dot"
+home = "Home"
+
+
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+
+refLinksErrorLevel = "WARNING"
+
+[params]
+primaryColor = "#ff4b00"
+secondaryColor = "#f4f4f4"
+textColor = "#525a63"
+textColorDark = "#333"
+whiteColor = "#ffffff"
+
+
+
+    # banner
+    [params.banner]
+      title = "Support Center & Knowledge base"
+      description = "Find advice and answers from our support team fast or get in touch"
+      image = "images/banner.jpg"
+      placeholder = "Have a question? Just ask here or enter terms"
+
+    # Topics
+    [params.topics]
+      title = "Find your answer by subject"
+    
+    # call to action
+    [params.cta]
+      enable = false
+      title = "Didn't find an answer to your question?"
+      description = "Musce libero nunc, dignissim quis turpis quis, semper vehicula dolor. Suspendisse tincidunt consequat quam."
+      btnText = "contact us"
+      btnURL = "/contact"
+
+    # contact
+    [params.contact]
+      title = "Got Any Questions"
+      content = "Submit the form and confirm your email address at <a class='text-primary' href='https://formspree.io/'>Formspree</a> Then add the following lines to contact page YAML Front Matter."
+
+    # footer social icon
+    [[socialIcon]]
+      icon = "ti-github"
+      URL = "https://github.com/dolittle"
+
+    [[socialIcon]]
+      icon = "ti-linkedin"
+      URL = "https://www.linkedin.com/company/dolittle/"
+      
+    [[socialIcon]]
+      icon = "ti-twitter-alt"
+      URL = "https://twitter.com/dolittle"
+      
+    [[socialIcon]]
+      icon = "ti-facebook"
+      URL = "https://www.facebook.com/dolittleX/"
+
+    [[socialIcon]]
+      icon = "ti-youtube"
+      URL = "https://www.youtube.com/channel/UCO54aeNeVzKFYVo7sVsXlAA"
+
+
+
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
+
+
+[Languages]
+
+  # English Language
+  [Languages.en]
+  languageName = "En"
+  weight = 1
+  dateFormat = "2 January 2006"
+  logo = "Dolittle"
+  copyright = "The Hugo Documents are copyright © gethugothemes 2018."
+
+    # # navigation
+    # [menu]
+    
+    #   [[menu.main]]
+    #     weight = 2
+    #     name = "Faq"
+    #     url = "/faq"
+        
+      # [[menu.main]]
+      #   weight = 2
+      #   name = "contact"
+      #   url = "/contact"
+        
+    #   [[menu.main]]
+    #     weight = 2
+    #     name = "pages"
+    #     url = "/pages"
+    #     hasChildren = true
+
+    #       [[menu.main]]
+    #       parent = "pages"
+    #       name = "Elements"
+    #       URL = "/elements"
+    #       weight = 1
+
+    #       [[menu.main]]
+    #       parent = "pages"
+    #       name = "Installation"
+    #       URL = "/installation"
+    #       weight = 2
+
+    #       [[menu.main]]
+    #       parent = "pages"
+    #       name = "Billing and Pricing"
+    #       URL = "/billing-pricing"
+    #       weight = 3
+
+    #       [[menu.main]]
+    #       parent = "pages"
+    #       name = "Features"
+    #       URL = "/features"
+    #       weight = 4
+
+
